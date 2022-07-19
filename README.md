@@ -24,7 +24,7 @@ Contact api with django and django rest framework
 | POST | /contacts/ | Create a new contact | request.data.first_name, request.data.last_name, request.data.nickname, request.data.email, request.data.phone_number |
 | GET | /contacts/list | Get all contacts |  |
 | PUT | /contacts/pk | Update a contact | request.data.first_name, request.data.last_name, request.data.nickname, request.data.email, request.data.phone_number, req.params.pks |
-| DELETE | /contacts/pk | Delete a contact | params.pk |
+| DELETE | /contacts/pk | Delete a contact | request.params.pk |
 | GET | /contacts/pk | Get a single contact | request.params.pk |
 
 ### Author(s)
